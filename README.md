@@ -1,30 +1,17 @@
-# lem_in (run on IOS)
+# https://www.macadamshop.fr/
 
-To compile all the project, run Make in lem_in/lemin
+macadamshop est un site internet destiné à une propriétaire de magasin.
 
-Usage : ./lem-in < [antfarm] | ./lemin_viewer/lemin_viewer
-
+Voici l'accueil du site contenant toutes les informations concernant le magasin ainsi qu'une gallerie de photo.
 ![alt text](https://github.com/antoinedauchy/macadamshop/blob/master/Screen%20Shot%202019-01-16%20at%202.23.09%20PM.png)
 
-# ant farm format
-[antfarm] is a file whith the following format:
+Voici la section du site permettant de s'inscrire et d'indiquer un parrain, pour gagner 10% sur le magasin.
+![alt text](https://github.com/antoinedauchy/macadamshop/blob/master/Screen%20Shot%202019-01-16%20at%202.23.34%20PM.png)
 
-number_of_ants
+Voici la section administration pour la vendeuse, lui permettant d'archiver un bon de réduction en magasin, et de gérer la gallerie de photo.
+![alt text](https://github.com/antoinedauchy/macadamshop/blob/master/Screen%20Shot%202019-01-16%20at%202.24.13%20PM.png)
+![alt text](https://github.com/antoinedauchy/macadamshop/blob/master/Screen%20Shot%202019-01-16%20at%202.25.03%20PM.png)
 
-the_rooms
+Voici la section espace client qui permet à l'utilisateur d'accéder à ses informations et ses bons de réduction.
+![alt text](https://github.com/antoinedauchy/macadamshop/blob/master/Screen%20Shot%202019-01-16%20at%202.25.52%20PM.png)
 
-the_links 
-
-You can find some [antfarm] files in lem_in/lemin/maps
-
-# the result
-The quickest way to get n ants across the farm is displayed on the standard output,
-
-in a specific format. (each move of each ant is written until all of them are arrived)
-
-# lemin_viewer
-lemin_view is a viewer that allow you too see ants going from one point to another of the antfarm,
-
-after being choosen by the program ./lem-in
-
-It uses the standard output of ./lem-in to create a graphic view.
